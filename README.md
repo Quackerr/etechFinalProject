@@ -1,2 +1,1 @@
-# This is a website about Basketball Players Hall of Fame
-# by Jefferson Unas & Carlos Pace
+# Watch Oshi no Ko now! Totally a not depressing Anime about an Idol with her kids
