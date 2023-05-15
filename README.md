@@ -1,1 +1,2 @@
-# Watch Oshi no Ko now! Totally a not depressing Anime about an Idol with her kids
+# This Website is about the Hall of Fame of the Greatest Basketball Players
+# Made by Jefferson Unas & Carlos Pace
