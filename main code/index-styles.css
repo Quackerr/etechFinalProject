@@ -22,5 +22,7 @@
     text-align: center;
     color: aliceblue;
     font-size: 100px;
+    font-family: "Century Gothic";
     padding-top: 17%;
+    text-shadow: 0 0 10px rgb(150, 138, 138);
 }
