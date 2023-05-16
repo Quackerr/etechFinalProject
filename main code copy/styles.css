@@ -1,0 +1,18 @@
+.navbar-brand {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.navbar {
+    background-color: aqua;
+    background-color: rgba(0, 0, 0, .25);
+    color: white;
+    padding: 100px;
+
+}
+
+.container-fluid {
+    padding: 200px;
+    background: URL(Originals.jpg);
+}
