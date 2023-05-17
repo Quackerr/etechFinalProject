@@ -60,3 +60,7 @@
     background-color: #333;
     overflow-x: hidden;
 }
+
+.card, .card-body {
+    background: rgba(168, 168, 168, 0.5);
+}
