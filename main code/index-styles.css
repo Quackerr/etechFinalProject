@@ -37,7 +37,6 @@
     background-color: #333;
     color: white;
     margin-top: 30%;
-    text-align: center;
     margin-left: 10px;
     margin-right: 10px;
 
@@ -49,6 +48,7 @@
     font-family: "Poppins", sans-serif;
     left: 0;
     font-size: 50px;
+    text-align: center;
 }
 
 .card-text{
