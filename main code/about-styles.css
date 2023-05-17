@@ -1,16 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-.bg-image {
+.wrapper {
     height: 100vh;
-    width: 100vw;
-    object-fit: cover;
-    filter: brightness(0.6);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-
-    
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+    background-color: #333;
 }
 
 .navbar-brand {
@@ -18,7 +13,79 @@
     font-weight: 700;
 }
 
-.nav-item a{
+.nav-item {
 
     font-family: 'Poppins', sans-serif;
+}
+
+.navbar.navbar-expand-lg.navbar-dark {
+    /*must be left empty or the navigation bar will not be transparent*/
+}
+
+.title{
+    font-size: 7rem;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+section {
+    font-size: 2rem;
+    padding: 2rem;
+    background: rgba(129, 129, 129, 0.5);
+    color: white;
+}
+
+body{
+    margin: 0;
+}
+
+header {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.bg-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+    transform: translateZ(-10px) scale(3);
+}
+
+.Carlos.Pace {
+    width: 40%;
+    float: right;
+    margin-right: 50px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+
+.Jefferson.Unas{
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 5px;
+}
+
+.students {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.pace-img1 {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
