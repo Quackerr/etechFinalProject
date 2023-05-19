@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@700&display=swap');
 
+body{
+    overflow-x: hidden;
+}
 .bg-image {
     height: 100vh;
     width: 100vw;
@@ -12,4 +15,35 @@
 
 .navbar.navbar-expand-lg.navbar-dark {
     font-family: "Poppins", sans-serif;
+}
+
+.carousel.slide{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.services-header{
+    text-align: center;
+    margin-top: 10rem;
+    color:aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-size: 5rem;
+}
+.services-subheader{
+    text-align: center;
+    color: aliceblue;
+    font-family: "DM Sans", sans-serif;
+}
+
+.carousel-caption.d-none.d-md-block{
+    color: aliceblue;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    font-family: "DM Sans", sans-serif;
+    background-color: rgb(117, 117, 117);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding:0;
+    padding-top: 10px;
 }
